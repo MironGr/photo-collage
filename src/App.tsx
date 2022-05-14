@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Template for SPA (create react app)</h1>
+      <ul>
+        <li><h3>React 18</h3></li>
+        <li><h3>Typescript</h3></li>
+        <li><h3>Redux (the store is created)</h3></li>
+        <li><h3>Redux Saga (is added to the store)</h3></li>
+        <li><h3>Sass</h3></li>
+        <li><h3>classnames (for dev)</h3></li>
+        <li><h3>yarn</h3></li>
+      </ul>
     </div>
   );
 }
