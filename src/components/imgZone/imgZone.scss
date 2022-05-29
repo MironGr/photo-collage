@@ -1,0 +1,31 @@
+.image-zone {
+  position: absolute;
+  border-radius: 50%;
+
+  &__wrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+  }
+
+  &__plaseholder {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__input {
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 0;
+    // visibility: hidden;
+    // display: none;
+  }
+  &__icon {
+    fill: #2CAEF8;
+  }
+}

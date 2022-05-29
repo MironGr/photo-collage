@@ -2,8 +2,19 @@ import React from "react"
 
 import './mainArea.scss'
 
-export const MainArea: React.FC = () => {
-  return <svg className="svg-area">
+import { ImgZone } from 'src/components/imgZone'
 
-  </svg>
+export const MainArea: React.FC = () => {
+  return <div className="svg-wrapper">
+    <svg className="svg-area">
+    </svg>
+    <ImgZone 
+        left={100}
+        top={100}
+        r={100}
+        stroke='red'
+        strokeWidth={20}
+      />
+    
+  </div>
 }
