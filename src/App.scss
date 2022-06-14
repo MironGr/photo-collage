@@ -1,6 +1,8 @@
-// body {
-//   margin: 0;
-// }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+}
 
 #root {
   font-family: 'Ubuntu', sans-serif;
@@ -9,11 +11,17 @@
 }
 
 .root-wrapper {
-  width: 100vw;
-  padding: 0 5%;
+  position: relative;
+  width: 90%;
+  margin: 0 5%;
   // height: 100%;
 }
 
 .workspace {
-  display: flex;
+  position: absolute;
+  top: 0;
+
+  &__tools {
+    display: flex;
+  }
 }

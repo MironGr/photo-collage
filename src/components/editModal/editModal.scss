@@ -1,0 +1,63 @@
+.edit-modal {
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 20, 20, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 10;
+
+  &__window {
+    width: 70%;
+    height: 70%;
+
+    background-color: white;
+    
+    &_wrapper {
+      margin: 3%;
+      // outline: 3px solid green;
+    }
+  }
+
+  &__close {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__main-area {
+    display: flex;
+    justify-content: space-between;
+
+    &_left {
+      // width: 300px;
+      // height: 300px;
+      border-radius: 10px;
+      outline: 3px solid #2CAEF8;
+    }
+    &_rigth {
+      width: 300px;
+      margin-left: 20px;
+      // display: flex;
+      outline: 3px solid #2CAEF8;
+    }
+  }
+
+  &__tool {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    &_logo {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      outline: 3px solid #2CAEF8;
+
+      margin-right: 10px;
+    }
+  }
+}
